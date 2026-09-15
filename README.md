@@ -186,41 +186,13 @@ This project was created to strengthen practical frontend development skills by 
 
 * 🔎 Product search
 * 📄 Product details pages
-* 👤 Complete authentication
+* 👤 Complete user authentication
 * 🛒 Advanced cart functionality
 * 💳 Checkout and payment integration
 * 📦 Order management
 * ❤️ Wishlist functionality
 * 🗄️ Backend integration
 * 🔥 Database integration
-
----
-
-## 🚀 Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/asmaaportfolio/electro-store.git
-```
-
-### Open the Project
-
-Open the project folder in **Visual Studio Code**.
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Run the Project
-
-```bash
-npm start
-```
-
-The application will be available at the local development URL provided by Create React App.
 
 ---
 

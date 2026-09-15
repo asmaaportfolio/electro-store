@@ -1,0 +1,171 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem 6rem;
+  background: #dee8f3;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.about-description {
+  max-width: 600px; 
+}
+
+.about-section {
+  background-color: #f8f9fa; 
+  padding: 8rem; 
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 20px; 
+}
+
+.statistics {
+  display: flex; 
+  justify-content: space-around; 
+  margin: 20px 0;
+  padding-top: 2rem;
+}
+
+.stat {
+  background-color: #fff;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex: 1; 
+  margin: 0 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.stat:hover {
+  transform: scale(1.1);
+}
+
+.testimonials {
+  margin: 30px 0;
+  padding-top: 2rem; 
+}
+
+.team-photo img {
+  width: 100%;
+  max-width: 600px; 
+  border-radius: 10px;
+}
+
+.read-more-button {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.read-more-button:hover {
+  background-color: #0056b3; 
+}
+
+
+.social-icons {
+  display: flex; 
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #000; 
+  transition: color 0.3s; 
+}
+
+.social-icons a:hover {
+  color: #007bff; 
+}
+
+
+@media (max-width: 991px) {
+  .about-container {
+    flex-direction: column; 
+    padding: 4rem 2rem; 
+    text-align: center; 
+  }
+
+  .about-content,
+  .about-image {
+    flex: none; 
+    margin-bottom: 2rem; 
+  }
+
+  .statistics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat {
+    max-width: 300px;
+    margin: 10px 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 3rem 1rem; 
+  }
+
+  .about-description {
+    max-width: 100%; 
+  }
+
+  .team-photo img {
+    max-width: 100%; 
+  }
+
+  .statistics {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .about-container,
+  .about-section {
+    padding: 2rem 1rem; 
+  }
+
+  .statistics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stat {
+    width: 100%; 
+    margin: 10px 0;
+  }
+
+  .read-more-button {
+    width: 100%; 
+    padding: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 5px;
+  }
+}
+
+  

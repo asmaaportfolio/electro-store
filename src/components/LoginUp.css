@@ -1,0 +1,73 @@
+/* LoginUp.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-login-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.facebook-button {
+  background-color: #3b5998;
+}
+
+.google-button {
+  background-color: #db4a39;
+}
+
+.social-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.login-options a {
+  color: #007bff;
+  text-decoration: none;
+}
+
